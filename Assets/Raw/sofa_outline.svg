@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="sofa outline"><g fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M144 377v24q0 9 9 9h15q8 0 9-9l3-24M460 377l3 24q1 9 9 9h15q9 0 9-9v-24"/>
+<path d="M118 232v-78q0-46 46-46h312q46 0 46 46v78"/>
+<path d="M143 232v-73q0-29 29-29h112q29 0 29 29v108M327 267V159q0-29 29-29h112q29 0 29 29v73"/>
+<rect x="78" y="232" width="84" height="130" rx="27"/><rect x="478" y="232" width="84" height="130" rx="27"/>
+<path d="M162 267h138q20 0 20 20v17q0 20-20 20H162M320 287q0-20 20-20h138M320 304q0 20 20 20h138M111 362q0 15 24 15h370q24 0 24-15"/></g></svg>
