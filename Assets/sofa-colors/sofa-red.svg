@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title">
+<title id="title">Minimal red cartoon sofa</title>
+<g stroke="#514A54" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M144 366v35q0 9 9 9h15q8 0 9-9l4-35M459 366l4 35q1 9 9 9h15q9 0 9-9v-35" fill="#A47F61"/>
+<rect x="118" y="108" width="404" height="218" rx="46" fill="#EF5350"/>
+<rect x="143" y="130" width="170" height="151" rx="29" fill="#FF8A80" stroke="none"/>
+<rect x="327" y="130" width="170" height="151" rx="29" fill="#FF8A80" stroke="none"/>
+<rect x="111" y="289" width="418" height="88" rx="24" fill="#D94343"/>
+<rect x="137" y="267" width="183" height="57" rx="20" fill="#EF5350"/>
+<rect x="320" y="267" width="183" height="57" rx="20" fill="#EF5350"/>
+<rect x="78" y="232" width="84" height="130" rx="27" fill="#EF5350"/>
+<rect x="478" y="232" width="84" height="130" rx="27" fill="#EF5350"/>
+</g>
+</svg>
