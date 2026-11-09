@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="820" viewBox="0 0 560 820" role="img" aria-label="Cream floor lamp with red diffused light and transparent background">
+  <defs>
+    <radialGradient id="broadGlow" cx="50%" cy="42%" r="56%">
+      <stop offset="0" stop-color="#C5223D" stop-opacity="0.68"/>
+      <stop offset="0.25" stop-color="#DF4A61" stop-opacity="0.46"/>
+      <stop offset="0.55" stop-color="#F3A0A8" stop-opacity="0.28"/>
+      <stop offset="0.82" stop-color="#F3A0A8" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#F3A0A8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="innerLight" cx="50%" cy="0" r="92%">
+      <stop offset="0" stop-color="#C5223D" stop-opacity="0.68"/>
+      <stop offset="0.36" stop-color="#DF4A61" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#F3A0A8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0.06" y1="0" x2="0.94" y2="0.82" objectBoundingBox="true">
+      <stop offset="0" stop-color="#FFF5E8"/>
+      <stop offset="0.30" stop-color="#FBEBDD"/>
+      <stop offset="0.65" stop-color="#F7E3CE"/>
+      <stop offset="1" stop-color="#F4DCC5"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A66224"/>
+      <stop offset="0.19" stop-color="#E8AA52"/>
+      <stop offset="0.47" stop-color="#F9D581"/>
+      <stop offset="0.68" stop-color="#D68C36"/>
+      <stop offset="1" stop-color="#AD6828"/>
+    </linearGradient>
+    <radialGradient id="finial" cx="0.34" cy="0.24" r="0.82">
+      <stop offset="0" stop-color="#FFF3C9"/>
+      <stop offset="0.33" stop-color="#F8D27B"/>
+      <stop offset="0.7" stop-color="#D99844"/>
+      <stop offset="1" stop-color="#9D5925"/>
+    </radialGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF6E8"/>
+      <stop offset="0.62" stop-color="#F9E7D3"/>
+      <stop offset="1" stop-color="#E4C9A8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent canvas, broad, blurred-looking color diffusion behind lamp. -->
+  <ellipse cx="280" cy="421" rx="268" ry="341" fill="url(#broadGlow)"/>
+  <path d="M 223 272 Q 170 327 121 477 Q 100 531 74 578 Q 170 673 280 640 Q 393 673 486 578 Q 460 517 438 452 Q 390 325 337 272 Z" fill="url(#innerLight)" opacity="0.9"/>
+
+  <!-- Pole continues into the foot; identical cream-and-brass lamp across all variants. -->
+  <rect x="271" y="277" width="18" height="433" rx="5" fill="url(#gold)" stroke="#A96A32" stroke-width="2"/>
+  <path d="M 276 283 L 276 700" fill="none" stroke="#FFE3A4" stroke-width="2.4" opacity="0.8"/>
+
+  <!-- Subtle yellow lamp underside, rather than recoloring the cream shade. -->
+  <ellipse cx="280" cy="283" rx="106" ry="18" fill="#FFE19C" opacity="0.42"/>
+  <path d="M 172 278 C 204 298 229 295 250 279 C 266 296 295 296 310 280 C 332 296 352 297 386 278" fill="none" stroke="#FFF4CE" stroke-width="7" stroke-linecap="round" opacity="0.92"/>
+
+  <!-- Classic scalloped cream lampshade: top curves, four pleats, rounded edge. -->
+  <path d="M 149 270 C 155 190 208 113 280 100 C 354 112 405 190 411 270
+           C 415 285 398 292 382 285 C 369 301 345 301 329 287
+           C 313 301 295 302 280 288 C 264 301 246 301 230 287
+           C 212 302 190 301 177 285 C 160 294 144 285 149 270 Z"
+      fill="url(#shade)" stroke="#CBA47D" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M 280 101 C 255 143 246 208 245 287" fill="none" stroke="#D9B89A" stroke-width="3.3" opacity="0.85"/>
+  <path d="M 280 101 C 300 143 314 207 315 287" fill="none" stroke="#D9B89A" stroke-width="3.3" opacity="0.83"/>
+  <path d="M 279 101 C 220 133 196 217 192 287" fill="none" stroke="#D5B293" stroke-width="3.2" opacity="0.65"/>
+  <path d="M 280 101 C 335 132 362 215 368 287" fill="none" stroke="#D5B293" stroke-width="3.2" opacity="0.65"/>
+  <path d="M 156 271 C 169 290 185 289 193 279 C 214 293 232 291 245 280 C 265 294 297 294 315 280 C 336 293 356 291 369 280 C 386 292 400 287 408 272"
+      fill="none" stroke="#C59670" stroke-width="2" opacity="0.86"/>
+
+  <!-- Golden finial. -->
+  <ellipse cx="280" cy="89" rx="19" ry="15" fill="url(#finial)" stroke="#A7662D" stroke-width="2.5"/>
+  <path d="M 268 86 Q 274 79 283 81" fill="none" stroke="#FFF4D0" stroke-width="4" stroke-linecap="round" opacity="0.88"/>
+
+  <!-- Pull chain and bead. -->
+  <path d="M 330 281 L 330 348" stroke="#BD832E" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 4"/>
+  <path d="M 330 281 L 330 348" stroke="#E6B25E" stroke-width="1.1" stroke-linecap="round"/>
+  <circle cx="330" cy="353" r="8.5" fill="url(#finial)" stroke="#A36B31" stroke-width="1.8"/>
+
+  <!-- Cream rounded layered base. -->
+  <ellipse cx="280" cy="739" rx="92" ry="31" fill="#B17C4C" opacity="0.13"/>
+  <path d="M 196 718 C 203 703 239 696 280 696 C 321 696 357 703 364 718
+           L 368 739 C 362 760 318 768 280 768 C 241 768 198 760 192 739 Z"
+        fill="url(#base)" stroke="#C69B74" stroke-width="3"/>
+  <ellipse cx="280" cy="715" rx="78" ry="19" fill="#FFF5E7" stroke="#D8B28B" stroke-width="2.8"/>
+  <ellipse cx="280" cy="714" rx="52" ry="11" fill="#F8E6CC" stroke="#E4C3A0" stroke-width="2"/>
+  <path d="M 200 739 C 224 757 335 758 360 739" fill="none" stroke="#E4C7A6" stroke-width="2" opacity="0.88"/>
+</svg>
