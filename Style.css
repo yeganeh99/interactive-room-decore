@@ -101,12 +101,13 @@ h1 {
   top: 0;
   left: 40%;
   z-index: 1;
+  clip-path: inset(0 0 30%);
 }
 
 .lamp {
   width: 23%;
   bottom: 5%;
-  left: 5%;
+  left: 10%;
   z-index: 2;
 }
 
