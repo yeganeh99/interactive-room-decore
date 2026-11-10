@@ -14,6 +14,30 @@ h1 {
   margin: 0;
 }
 
+.room-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 18px;
+  flex-wrap: nowrap;
+  margin: 24px 0;
+}
+
+.room-items img {
+  width: 140px;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.room-items img[alt="Curtain"] {
+  z-index: 0;
+}
+
+.room-items img[alt="Sofa"] {
+  z-index: 1;
+}
+
 .button-row {
   display: flex;
   gap: 32px;
@@ -48,4 +72,8 @@ h1 {
 .yellow {
   background: yellow;
   color: #222;
+}
+
+.room-item {
+
 }
