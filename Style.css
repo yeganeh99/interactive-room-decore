@@ -74,6 +74,43 @@ h1 {
   color: #222;
 }
 
-.room-item {
+.room {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 4 / 3;
+  margin: auto;
+}
 
+.room img {
+  position: absolute;
+  height: auto;
+}
+
+.wall-art {
+  width: 14%;
+  top: 8%;
+  left: 16%;
+  z-index: 2;
+}
+
+.curtain {
+  width: 42%;
+  top: 0;
+  left: 40%;
+  z-index: 1;
+}
+
+.lamp {
+  width: 23%;
+  bottom: 5%;
+  left: 5%;
+  z-index: 2;
+}
+
+.sofa {
+  width: 65%;
+  bottom: 0;
+  left: 25%;
+  z-index: 3;
 }
