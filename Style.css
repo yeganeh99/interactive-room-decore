@@ -127,7 +127,9 @@ h1 {
 
 .button-row { 
   display:flex;
+  position:fixed;
   flex-direction:column;
+  justify-content:center;
   gap:32px;
   text-align:left;
 
