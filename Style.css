@@ -118,3 +118,11 @@ h1 {
   z-index: 3;
 }
 
+.button-row { 
+  display:flex;
+  flex-direction:column;
+  gap:32px;
+  text-align:left;
+
+
+}
