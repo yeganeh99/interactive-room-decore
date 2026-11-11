@@ -3,10 +3,11 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 32px 24px 24px;
   box-sizing: border-box;
+  gap: 12px;
   font-family: Arial, sans-serif;
   background-image: url("Assets/Background/room-bg.png");
   background-size: cover;
@@ -14,12 +15,20 @@ body {
   background-repeat: no-repeat;
 }
 
-}
-
 h1 {
-  margin: 32px 0 0;
+  margin: 0;
   display: block;
   text-align: center;
+}
+
+.room-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 1080px;
+  flex: 1;
 }
 
 .room-items {
@@ -32,7 +41,7 @@ h1 {
 }
 
 .room-items img {
-  width: 140px;
+  width: 250px;
   height: auto;
   display: block;
   position: relative;
@@ -48,15 +57,15 @@ h1 {
 
 .button-row {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
 .color-btn {
-  width: 130px;
-  height: 62px;
-  border: none;
+  width: 90px;
+  height: 48px;
+  border: 1px solid rgb(252, 253, 235);
   border-radius: 32px;
   font-size: 16px;
   font-weight: 600;
@@ -85,10 +94,11 @@ h1 {
 
 .room {
   position: relative;
+  flex: 1;
   width: 100%;
   max-width: 800px;
   aspect-ratio: 4 / 3;
-  margin: auto;
+  margin: 0;
 }
 
 .room img {
@@ -125,13 +135,28 @@ h1 {
   z-index: 3;
 }
 
-.button-row { 
-  display:flex;
-  position:fixed;
-  flex-direction:column;
-  justify-content:center;
-  gap:32px;
-  text-align:left;
+.button-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
 
+@media (max-width: 560px) {
+  .room-layout {
+    flex-direction: column;
+    gap: 16px;
+  }
 
+  .button-row {
+    order: -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .color-btn {
+    width: clamp(80px, 20vw, 130px);
+  }
 }
