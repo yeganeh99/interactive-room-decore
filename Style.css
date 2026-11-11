@@ -58,21 +58,21 @@ h1 {
 }
 
 .pink {
-  background: pink;
+  background: rgb(252, 190, 200);
 }
 
 .red {
-  background: red;
+  background: rgb(116, 9, 9);
   color: white;
 }
 
 .blue {
-  background: blue;
+  background: rgb(80, 194, 232);
   color: white;
 }
 
 .yellow {
-  background: yellow;
+  background: rgb(249, 249, 173);
   color: #222;
 }
 
