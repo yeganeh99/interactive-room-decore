@@ -172,7 +172,16 @@ h1 {
   }
 }
 
- .plant1, .plant2, .plant3, .plant4 {
-width:10%;
-height:auto;
- }
+.plant1,
+.plant2,
+.plant3,
+.plant4 {
+  width: 9%;
+  height: auto;
+}
+
+.plant1 {
+  left: 18%;
+  bottom: 0;
+  z-index: 4;
+}
