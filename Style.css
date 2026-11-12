@@ -154,6 +154,13 @@ h1 {
   flex-shrink: 0;
 }
 
+.success-message {
+  width: 120px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
 @media (max-width: 560px) {
   .room-layout {
     flex-direction: column;
@@ -170,6 +177,11 @@ h1 {
   .color-btn {
     width: clamp(80px, 20vw, 130px);
   }
+
+  .scratch-hint,
+  .success-message {
+    width: 100%;
+  }
 }
 
 .plant1,
@@ -178,6 +190,8 @@ h1 {
 .plant4 {
   width: 18%;
   height: auto;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .plant1 {
@@ -202,4 +216,24 @@ h1 {
   right: 0;
   bottom: 0;
   z-index: 4;
+}
+
+.room.scratch-ready {
+  touch-action: none;
+  cursor: crosshair;
+}
+
+.room.scratch-ready .plant1.revealed,
+.room.scratch-ready .plant2.revealed,
+.room.scratch-ready .plant3.revealed,
+.room.scratch-ready .plant4.revealed {
+  visibility: visible;
+}
+
+.scratch-hint {
+  width: 120px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: center;
 }
