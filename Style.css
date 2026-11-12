@@ -248,3 +248,35 @@ h1 {
     transform: translateY(0);
   }
 }
+
+.plant1.revealed,
+.plant2.revealed,
+.plant3.revealed,
+.plant4.revealed {
+  visibility: visible;
+  opacity: 1;
+  animation: plantSway 1.2s ease-in-out;
+  transform-origin: bottom center;
+}
+
+@keyframes plantSway {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(6deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
