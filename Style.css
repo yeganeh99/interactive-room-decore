@@ -107,7 +107,7 @@ h1 {
 .room {
   position: relative;
   flex: 0 1 auto;
-  width: min(72vw, 90vh);
+  width: min(90vw, 120vh);
   max-width: none;
   aspect-ratio: 4 / 3;
   margin: 0;
