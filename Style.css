@@ -203,13 +203,14 @@ h1 {
 
   .button-row {
     order: -1;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
     gap: 10px;
   }
 
   .color-btn {
-    width: clamp(80px, 20vw, 130px);
+    width: 90px;
   }
 
   .scratch-hint,
